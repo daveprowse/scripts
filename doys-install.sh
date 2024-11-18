@@ -5,6 +5,7 @@
 ## TODO: Potentially, add variables for indentified GNOME versions to simpligy the case portion of the script.
 
 # Initial checks
+
 clear -x
 printf "\n\033[7;31mTHIS SCRIPT WILL INSTALL DRAWONYOURSCREEN (DOYS) FOR THE GNOME DESKTOP! \033[0m"
 printf '%.0s\n' {1..2}
