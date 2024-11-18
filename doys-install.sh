@@ -91,7 +91,7 @@ main() {
             echo;echo
             wget -q https://github.com/daveprowse/DrawOnYourScreen3/releases/download/v15.0-GNOME-v47/GNOMEv47.tar.xz
             tar -xf GNOMEv47.tar.xz
-            mv GNOMEv47/ draw-on-your-screen3@daveprowse.github.io/
+            mv DrawOnYourScreen3/ draw-on-your-screen3@daveprowse.github.io/
             if [ ! -d ~/.local/share/gnome-shell/extensions ]; then
                 echo "Creating extensions directory..."
                 mkdir -p ~/.local/share/gnome-shell/extensions
@@ -103,7 +103,7 @@ main() {
             echo;echo
             wget -q https://github.com/daveprowse/DrawOnYourScreen3/releases/download/v15.0-GNOME-v47/GNOMEv47.tar.xz
             tar -xf GNOMEv47.tar.xz
-            mv GNOMEv47/ draw-on-your-screen3@daveprowse.github.io/
+            mv DrawOnYourScreen3/ draw-on-your-screen3@daveprowse.github.io/
             if [ ! -d ~/.local/share/gnome-shell/extensions ]; then
                 echo "Creating extensions directory..."
                 mkdir -p ~/.local/share/gnome-shell/extensions
