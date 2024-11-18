@@ -87,10 +87,28 @@ main() {
             cp -r draw-on-your-screen3@daveprowse.github.io/ ~/.local/share/gnome-shell/extensions/
             ;;
         46)
-            
+            echo "Downloading DOYS extension for GNOME version 46"
+            echo;echo
+            wget -q https://github.com/daveprowse/DrawOnYourScreen3/releases/download/v15.0-GNOME-v47/GNOMEv47.tar.xz
+            tar -xf GNOMEv47.tar.xz
+            mv GNOMEv47/ draw-on-your-screen3@daveprowse.github.io/
+            if [ ! -d ~/.local/share/gnome-shell/extensions ]; then
+                echo "Creating extensions directory..."
+                mkdir -p ~/.local/share/gnome-shell/extensions
+            fi            
+            cp -r draw-on-your-screen3@daveprowse.github.io/ ~/.local/share/gnome-shell/extensions/
             ;;
         47)
-
+            echo "Downloading DOYS extension for GNOME version 47"
+            echo;echo
+            wget -q https://github.com/daveprowse/DrawOnYourScreen3/releases/download/v15.0-GNOME-v47/GNOMEv47.tar.xz
+            tar -xf GNOMEv47.tar.xz
+            mv GNOMEv47/ draw-on-your-screen3@daveprowse.github.io/
+            if [ ! -d ~/.local/share/gnome-shell/extensions ]; then
+                echo "Creating extensions directory..."
+                mkdir -p ~/.local/share/gnome-shell/extensions
+            fi            
+            cp -r draw-on-your-screen3@daveprowse.github.io/ ~/.local/share/gnome-shell/extensions/
             ;;
         *)
             echo "Unsupported GNOME Shell version: $gnome_version. Exiting."
