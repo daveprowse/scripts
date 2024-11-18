@@ -75,7 +75,16 @@ main() {
             ;;
         
         45)
-
+            echo "Downloading DOYS extension for GNOME version 45"
+            echo;echo
+            wget -q https://github.com/daveprowse/DrawOnYourScreen3/releases/download/v14.0-GNOME-v45/GNOMEv45.tar.xz
+            tar -xf GNOMEv45.tar.xz
+            mv GNOMEv45/ draw-on-your-screen3@daveprowse.github.io/
+            if [ ! -d ~/.local/share/gnome-shell/extensions ]; then
+                echo "Creating extensions directory..."
+                mkdir -p ~/.local/share/gnome-shell/extensions
+            fi            
+            cp -r draw-on-your-screen3@daveprowse.github.io/ ~/.local/share/gnome-shell/extensions/
             ;;
         46)
             
@@ -112,7 +121,7 @@ echo -e "Next steps:  \n
    - GUI: Install and run 'gnome-extensions-app' and enable the extension. \n
 3. Press 'Super+Alt+D' and start having fun! \n"
 echo
-printf "\n\033[7;36m ENJOY! If you have any issues, consider installing manually or post an issue on GitHub. \n
+printf "\n\033[7;36mENJOY! If you have any issues, consider installing manually or post an issue on GitHub. \n
 https://github.com \033[0m"
 ## add link above and below
 
