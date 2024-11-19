@@ -2,7 +2,7 @@
 
 ## This script will install the DrawOnYourScreen GNOME extension to Linux systems with the GNOME desktop environment.
 
-## TODO: Potentially, add variables for indentified GNOME versions to simpligy the case portion of the script.
+## TODO: Potentially, add variables for indentified GNOME versions to simplify the case portion of the script.
 
 ## Initial checks
 
@@ -140,7 +140,7 @@ echo -e "Next steps:  \n
 3. Press 'Super+Alt+D' and start having fun! \n"
 echo
 printf "\n\033[7;36mENJOY! If you have any issues, consider installing manually or post an issue on GitHub. \n
-https://github.com \033[0m"
+https://github.com/daveprowse/DrawOnYourScreen3/issues \033[0m"
 ## add link above and below
 
 printf '%.0s\n' {1..3}
@@ -148,5 +148,6 @@ printf '%.0s\n' {1..3}
 # completion of the original if-else statement (if cancelled)
 else
   echo -e "Installation cancelled. \n 
-If this was unexpected or you have any issues, consider installing manually or post an issue on GitHub. \n"
+If this was unexpected or you have any issues, consider installing manually or post an issue on GitHub. \n
+https://github.com/daveprowse/DrawOnYourScreen3/issues"
 fi
