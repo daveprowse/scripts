@@ -37,6 +37,42 @@ main() {
 
     # Determine which extension to install based on the GNOME version and download/install it.
     case $gnome_version in                
+        3.)
+            echo "Downloading DOYS extension for GNOME version 3.xx"
+            echo;echo
+            wget -q https://github.com/daveprowse/DrawOnYourScreen3/releases/download/v11.2/GNOMEv41.tar.xz
+            tar -xf GNOMEv41.tar.xz
+            mv GNOMEv41/ draw-on-your-screen3@daveprowse.github.io/
+            if [ ! -d ~/.local/share/gnome-shell/extensions ]; then
+                echo "Creating extensions directory..."
+                mkdir -p ~/.local/share/gnome-shell/extensions
+            fi            
+            cp -r draw-on-your-screen3@daveprowse.github.io/ ~/.local/share/gnome-shell/extensions/
+            ;;
+        40)
+            echo "Downloading DOYS extension for GNOME version 40"
+            echo;echo
+            wget -q https://github.com/daveprowse/DrawOnYourScreen3/releases/download/v11.2/GNOMEv41.tar.xz
+            tar -xf GNOMEv41.tar.xz
+            mv GNOMEv41/ draw-on-your-screen3@daveprowse.github.io/
+            if [ ! -d ~/.local/share/gnome-shell/extensions ]; then
+                echo "Creating extensions directory..."
+                mkdir -p ~/.local/share/gnome-shell/extensions
+            fi            
+            cp -r draw-on-your-screen3@daveprowse.github.io/ ~/.local/share/gnome-shell/extensions/
+            ;;
+        41)
+            echo "Downloading DOYS extension for GNOME version 41"
+            echo;echo
+            wget -q https://github.com/daveprowse/DrawOnYourScreen3/releases/download/v11.2/GNOMEv41.tar.xz
+            tar -xf GNOMEv41.tar.xz
+            mv GNOMEv41/ draw-on-your-screen3@daveprowse.github.io/
+            if [ ! -d ~/.local/share/gnome-shell/extensions ]; then
+                echo "Creating extensions directory..."
+                mkdir -p ~/.local/share/gnome-shell/extensions
+            fi            
+            cp -r draw-on-your-screen3@daveprowse.github.io/ ~/.local/share/gnome-shell/extensions/
+            ;;
         42)
             echo "Downloading DOYS extension for GNOME version 42"
             echo;echo
