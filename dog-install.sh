@@ -182,9 +182,9 @@ printf '%.0s\n' {1..2}
 echo -e "Next steps:  \n
 1. Logout and log back in. \n
    (if you are using Xorg, you can press Alt+F2, then type 'r' and press Enter to restart the Gnome desktop) \n
-2. Enable the DrawOnYourScreen extension (if necessary): \n
-   - CLI: Type 'gnome-extensions enable draw-on-gnome@daveprowse.github.io' \n  
+2. Enable the Draw-On-GNOME extension (if necessary): \n
    - GUI: Install and run 'gnome-extensions-app' and enable the extension. \n
+   - CLI: Type 'gnome-extensions enable draw-on-gnome@daveprowse.github.io' \n     
 3. Press 'Super+Alt+D' and start having fun! \n"
 echo
 printf "\n\033[7;36mENJOY! If you have any issues, consider installing manually or post an issue on GitHub. \n
