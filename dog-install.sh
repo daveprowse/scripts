@@ -40,7 +40,7 @@ main() {
         3.)
             echo "Downloading extension for GNOME version 3.xx"
             echo;echo
-            wget -q https://github.com/daveprowse/Draw-On-GNOME/releases/download/v11.2/GNOMEv41.tar.xz
+            wget -q https://github.com/daveprowse/Draw-On-Gnome/releases/download/v11.2/GNOMEv41.tar.xz
             tar -xf GNOMEv41.tar.xz
             mv GNOMEv41/ draw-on-your-screen3@daveprowse.github.io/
             if [ ! -d ~/.local/share/gnome-shell/extensions ]; then
@@ -52,7 +52,7 @@ main() {
         40)
             echo "Downloading extension for GNOME version 40"
             echo;echo
-            wget -q https://github.com/daveprowse/Draw-On-GNOME/releases/download/v11.2/GNOMEv41.tar.xz
+            wget -q https://github.com/daveprowse/Draw-On-Gnome/releases/download/v11.2/GNOMEv41.tar.xz
             tar -xf GNOMEv41.tar.xz
             mv GNOMEv41/ draw-on-your-screen3@daveprowse.github.io/
             if [ ! -d ~/.local/share/gnome-shell/extensions ]; then
@@ -64,7 +64,7 @@ main() {
         41)
             echo "Downloading extension for GNOME version 41"
             echo;echo
-            wget -q https://github.com/daveprowse/Draw-On-GNOME/releases/download/v11.2/GNOMEv41.tar.xz
+            wget -q https://github.com/daveprowse/Draw-On-Gnome/releases/download/v11.2/GNOMEv41.tar.xz
             tar -xf GNOMEv41.tar.xz
             mv GNOMEv41/ draw-on-your-screen3@daveprowse.github.io/
             if [ ! -d ~/.local/share/gnome-shell/extensions ]; then
@@ -76,7 +76,7 @@ main() {
         42)
             echo "Downloading extension for GNOME version 42"
             echo;echo
-            wget -q https://github.com/daveprowse/Draw-On-GNOME/releases/download/v13.0-GNOME-v42-v44/GNOMEv42.tar.xz
+            wget -q https://github.com/daveprowse/Draw-On-Gnome/releases/download/v13.0-GNOME-v42-v44/GNOMEv42.tar.xz
             tar -xf GNOMEv42.tar.xz
             mv GNOMEv42/ draw-on-your-screen3@daveprowse.github.io/
             if [ ! -d ~/.local/share/gnome-shell/extensions ]; then
@@ -88,7 +88,7 @@ main() {
         43)            
             echo "Downloading extension for GNOME version 43"
             echo;echo
-            wget -q https://github.com/daveprowse/Draw-On-GNOME/releases/download/v13.0-GNOME-v42-v44/GNOMEv42.tar.xz
+            wget -q https://github.com/daveprowse/Draw-On-Gnome/releases/download/v13.0-GNOME-v42-v44/GNOMEv42.tar.xz
             tar -xf GNOMEv42.tar.xz
             mv GNOMEv42/ draw-on-your-screen3@daveprowse.github.io/
             if [ ! -d ~/.local/share/gnome-shell/extensions ]; then
@@ -100,7 +100,7 @@ main() {
         44)
             echo "Downloading extension for GNOME version 44"
             echo;echo
-            wget -q https://github.com/daveprowse/Draw-On-GNOME/releases/download/v13.0-GNOME-v42-v44/GNOMEv42.tar.xz
+            wget -q https://github.com/daveprowse/Draw-On-Gnome/releases/download/v13.0-GNOME-v42-v44/GNOMEv42.tar.xz
             tar -xf GNOMEv42.tar.xz
             mv GNOMEv42/ draw-on-your-screen3@daveprowse.github.io/
             if [ ! -d ~/.local/share/gnome-shell/extensions ]; then
@@ -113,7 +113,7 @@ main() {
         45)
             echo "Downloading extension for GNOME version 45"
             echo;echo
-            wget -q https://github.com/daveprowse/Draw-On-GNOME/releases/download/v14.0-GNOME-v45/GNOMEv45.tar.xz
+            wget -q https://github.com/daveprowse/Draw-On-Gnome/releases/download/v14.0-GNOME-v45/GNOMEv45.tar.xz
             tar -xf GNOMEv45.tar.xz
             mv GNOMEv45/ draw-on-your-screen3@daveprowse.github.io/
             if [ ! -d ~/.local/share/gnome-shell/extensions ]; then
@@ -125,9 +125,9 @@ main() {
         46)
             echo "Downloading extension for GNOME version 46"
             echo;echo
-            wget -q https://github.com/daveprowse/Draw-On-GNOME/releases/download/D.O.G.-ver-1.0/Draw-On-GNOME-ver-1.tar.xz
-            tar -xf Draw-On-GNOME-ver-1.tar.xz
-            mv Draw-On-GNOME draw-on-gnome@daveprowse.github.io/
+            wget -q https://github.com/daveprowse/Draw-On-Gnome/releases/download/D.O.G.-ver-1.1/Draw-On-Gnome-ver-1-1.tar.xz
+            tar -xf Draw-On-Gnome-ver-1-1.tar.xz
+            mv Draw-On-Gnome draw-on-gnome@daveprowse.github.io/
             if [ ! -d ~/.local/share/gnome-shell/extensions ]; then
                 echo "Creating extensions directory..."
                 mkdir -p ~/.local/share/gnome-shell/extensions
@@ -137,9 +137,9 @@ main() {
         47)
             echo "Downloading extension for GNOME version 47"
             echo;echo
-            wget -q https://github.com/daveprowse/Draw-On-GNOME/releases/download/D.O.G.-ver-1.0/Draw-On-GNOME-ver-1.tar.xz
-            tar -xf Draw-On-GNOME-ver-1.tar.xz
-            mv Draw-On-GNOME draw-on-gnome@daveprowse.github.io/
+            wget -q https://github.com/daveprowse/Draw-On-Gnome/releases/download/D.O.G.-ver-1.1/Draw-On-Gnome-ver-1-1.tar.xz
+            tar -xf Draw-On-Gnome-ver-1-1.tar.xz
+            mv Draw-On-Gnome draw-on-gnome@daveprowse.github.io/
             if [ ! -d ~/.local/share/gnome-shell/extensions ]; then
                 echo "Creating extensions directory..."
                 mkdir -p ~/.local/share/gnome-shell/extensions
@@ -149,9 +149,9 @@ main() {
         48)
             echo "Downloading extension for GNOME version 48"
             echo;echo
-            wget -q https://github.com/daveprowse/Draw-On-GNOME/releases/download/D.O.G.-ver-1.0/Draw-On-GNOME-ver-1.tar.xz
-            tar -xf Draw-On-GNOME-ver-1.tar.xz
-            mv Draw-On-GNOME draw-on-gnome@daveprowse.github.io/
+            wget -q https://github.com/daveprowse/Draw-On-Gnome/releases/download/D.O.G.-ver-1.1/Draw-On-Gnome-ver-1-1.tar.xz
+            tar -xf Draw-On-Gnome-ver-1-1.tar.xz
+            mv Draw-On-Gnome draw-on-gnome@daveprowse.github.io/
             if [ ! -d ~/.local/share/gnome-shell/extensions ]; then
                 echo "Creating extensions directory..."
                 mkdir -p ~/.local/share/gnome-shell/extensions
