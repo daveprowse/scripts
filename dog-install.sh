@@ -149,7 +149,7 @@ main() {
         48)
             echo "Downloading extension for GNOME version 48"
             echo;echo
-            wget -q https://github.com/daveprowse/Draw-On-Gnome/releases/download/D.O.G.-ver-1.1/Draw-On-Gnome-ver-1-2.tar.xz
+            wget -q https://github.com/daveprowse/Draw-On-Gnome/releases/download/D.O.G.-ver-1.2/Draw-On-Gnome-ver-1-2.tar.xz
             tar -xf Draw-On-Gnome-ver-1-2.tar.xz
             mv Draw-On-Gnome draw-on-gnome@daveprowse.github.io/
             if [ ! -d ~/.local/share/gnome-shell/extensions ]; then
