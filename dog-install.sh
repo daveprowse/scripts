@@ -150,8 +150,8 @@ main() {
             ## new version for GNOME v48 due to cursor renaming issue
             echo "Downloading extension for GNOME version 48"
             echo;echo
-            wget -q https://github.com/daveprowse/Draw-On-Gnome/releases/download/D.O.G.-ver-1.4/Draw-On-Gnome-ver-1-4.tar.xz
-            tar -xf Draw-On-Gnome-ver-1-4.tar.xz
+            wget -q https://github.com/daveprowse/Draw-On-Gnome/releases/download/D.O.G.-ver1.4/Draw-On-Gnome-ver-1-4.tar.xz
+            tar -xf Draw-On-Gnome-ver-1-4.tar.xz            
             mv Draw-On-Gnome draw-on-gnome@daveprowse.github.io/
             if [ ! -d ~/.local/share/gnome-shell/extensions ]; then
                 echo "Creating extensions directory..."
