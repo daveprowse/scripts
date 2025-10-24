@@ -154,9 +154,9 @@ main() {
             mv Draw-On-Gnome draw-on-gnome@daveprowse.github.io/
             if [ ! -d ~/.local/share/gnome-shell/extensions ]; then
                 echo "Creating extensions directory..."
-                mkdir -p ~/.local/share/gnome-shell/extensions
+                sudo mkdir -p ~/.local/share/gnome-shell/extensions
             fi            
-            cp -r draw-on-gnome@daveprowse.github.io/ ~/.local/share/gnome-shell/extensions/
+            sudo cp -r draw-on-gnome@daveprowse.github.io/ ~/.local/share/gnome-shell/extensions/
             ;;
         *)
             echo "Unsupported GNOME Shell version: $gnome_version. Exiting."
