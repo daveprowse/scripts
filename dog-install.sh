@@ -149,8 +149,8 @@ main() {
         48)
             echo "Downloading extension for GNOME version 48"
             echo;echo
-            wget -q https://github.com/daveprowse/Draw-On-Gnome/releases/download/D.O.G.-ver-4.0/Draw-On-Gnome-ver-4-0.tar.xz
-            tar -xf Draw-On-Gnome-ver-4-0.tar.xz            
+            wget -q https://github.com/daveprowse/Draw-On-Gnome/releases/download/D.O.G.-ver-7.0/Draw-On-Gnome-ver-7-0.tar.xz
+            tar -xf Draw-On-Gnome-ver-7-0.tar.xz            
             mv Draw-On-Gnome draw-on-gnome@daveprowse.github.io/
             if [ ! -d ~/.local/share/gnome-shell/extensions ]; then
                 echo "Creating extensions directory..."
@@ -161,8 +161,8 @@ main() {
         49)
             echo "Downloading extension for GNOME version 49"
             echo;echo
-            wget -q https://github.com/daveprowse/Draw-On-Gnome/releases/download/D.O.G.-ver-4.0/Draw-On-Gnome-ver-4-0.tar.xz
-            tar -xf Draw-On-Gnome-ver-4-0.tar.xz            
+            wget -q https://github.com/daveprowse/Draw-On-Gnome/releases/download/D.O.G.-ver-7.0/Draw-On-Gnome-ver-7-0.tar.xz
+            tar -xf Draw-On-Gnome-ver-7-0.tar.xz            
             mv Draw-On-Gnome draw-on-gnome@daveprowse.github.io/
             if [ ! -d ~/.local/share/gnome-shell/extensions ]; then
                 echo "Creating extensions directory..."
