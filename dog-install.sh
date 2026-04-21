@@ -169,11 +169,7 @@ main() {
                 sudo mkdir -p ~/.local/share/gnome-shell/extensions
             fi            
             sudo cp -r draw-on-gnome@daveprowse.github.io/ ~/.local/share/gnome-shell/extensions/
-            ;;
-        *)
-            echo "Unsupported GNOME Shell version: $gnome_version. Exiting."
-            exit 1
-            ;;
+            ;;        
         50)
             echo "Downloading extension for GNOME version 50"
             echo;echo
