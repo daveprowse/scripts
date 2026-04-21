@@ -27,8 +27,9 @@ check_gnome_version() {
 }
 
 # Make temporary directory
-mkdir temp-doys
-cd temp-doys || return
+rm -rf temp-dog
+mkdir temp-dog
+cd temp-dog || return
 
 # Main script execution
 main() {
@@ -197,7 +198,7 @@ main
 
 # Clean UP!
 cd ..
-rm -rf temp-doys/
+rm -rf temp-dog/
 sleep 1
 
 # Completion messages
