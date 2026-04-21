@@ -174,6 +174,22 @@ main() {
             echo "Unsupported GNOME Shell version: $gnome_version. Exiting."
             exit 1
             ;;
+        50)
+            echo "Downloading extension for GNOME version 50"
+            echo;echo
+            wget -q https://github.com/daveprowse/Draw-On-Gnome/releases/download/D.O.G.-ver-11.0/Draw-On-Gnome-ver-11-0.tar.xz
+            tar -xf Draw-On-Gnome-ver-11-0.tar.xz            
+            mv Draw-On-Gnome draw-on-gnome@daveprowse.github.io/
+            if [ ! -d ~/.local/share/gnome-shell/extensions ]; then
+                echo "Creating extensions directory..."
+                sudo mkdir -p ~/.local/share/gnome-shell/extensions
+            fi            
+            sudo cp -r draw-on-gnome@daveprowse.github.io/ ~/.local/share/gnome-shell/extensions/
+            ;;
+        *)
+            echo "Unsupported GNOME Shell version: $gnome_version. Exiting."
+            exit 1
+            ;;
     esac
 }
 
