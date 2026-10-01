@@ -174,7 +174,7 @@ main() {
         50)
             echo "Downloading extension for GNOME version 50"
             echo;echo
-            wget -q https://github.com/daveprowse/Draw-On-Gnome/releases/download/v11.2/Draw-On-Gnome-ver-11-2.tar.xz
+            wget -q https://github.com/daveprowse/Draw-On-Gnome/releases/download/v11.2-2026/Draw-On-Gnome-ver-11-2.tar.xz
             tar -xf Draw-On-Gnome-ver-11-2.tar.xz            
             mv Draw-On-Gnome draw-on-gnome@daveprowse.github.io/
             if [ ! -d ~/.local/share/gnome-shell/extensions ]; then
